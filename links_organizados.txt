@@ -1,0 +1,221 @@
+MDP - Desenvolvimento de Produtos
+Aprovação/Liberação do Produto - MDP
+ - Aprovação do Produto - DP0302 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=249956694
+ - Eliminação Processos DP - DP0202 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253034761
+ - Liberação de Itens para a Engenharia - DP0502 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253034529
+ - Cadastros Gerais - MDP :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=249266782
+ - Consultas Cadastros Gerais - MDP :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253035066
+ - Relatórios Cadastros Gerais - MDP :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253986052
+Conceito de Unidade de Negócio - MDP
+Conceito Verificação da Integridade - MDP
+Verificação de Integridade - MDP
+ - Consultas - MDP :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253035066
+ - Consulta Estrutura Item DP - DP0812 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253985116
+ - Consulta Estrutura Sumariada - DP0523 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253985888
+ - Consulta Item Desenvolvimento Produtos - DP0610 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253035182
+ - Consulta Onde se Usa DP - DP0813 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253493262
+ - Consulta Onde se Usa Sumariado DP - DP0606 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253984934
+ - Consulta Processo Fabricação Item DP - DP0614 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253985508
+Desenvolvimento do Produto - MDP
+ - Custo das Operações Externas - DP0108 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=249956118
+ - Processo Desenvolvimento Produto – Rede Pert - DP0301 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=249267812
+ - Versão Desenvolvimento Produto - DP0301 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=249267812
+ - Versão Desenvolvimento Produto – Estrutura - DP0301 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=249267812
+ - Versão Desenvolvimento Produto – Operação - DP0301 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=249267812
+Dúvidas Mais Frequentes - MDP
+ - Como é utilizado o módulo do Desenvolvimento de Produtos? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=254607523
+ - Como se dá o reporte de uma ordem protótipo? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=254607614
+ - Como se dá valorização de uma ordem protótipo? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=254607632
+ - O que é o item para geração de ordens? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=254607592
+ - O que é uma Estrutura de produto no DP? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=254607543
+ - O que é uma geração de ordem protótipo? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=254607556
+Preparação das Informações - MDP
+ - Manutenção dos Parâmetros do Desenvolvimento de Produto - DP0106 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=249267068
+ - Manutenção Itens para Desenvolvimento - DP0101 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=249267242
+Procedimentos - MDP
+ - Criação de um produto a partir do zero :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=274306971
+Criação de Versão de Produto por Modificação/Substituição
+Ilustrando Criação de Novas Estruturas de Produto
+ - Relatórios - MDP :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253986052
+ - Catalogo Item Desenvolvimento Produtos - DPR001 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253987967
+ - Custos Versão Desenvolvimento - DP0520 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253987669
+ - Estrutura Níveis Único - DP0525 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253987361
+ - Estrutura Nível a Nível - DP0526 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253987491
+ - Estrutura Sumariada - DP0527 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253987557
+ - Relatório Catálogo Item DP - DP0601 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253987198
+ - Versões Item em Desenvolvimento - DP0608 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=253987293
+Simulações do Produto - MDP
+ - Composição dos Custos da Versão de Produto - DP0521 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=249956414
+ - Geração de Ordem de Protótipo - DP0501 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=249956628
+Documentação Complementar - MDP
+Acervo - MDP
+ - *DMDP0001 - Item para a geração de ordens de produção :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771904
+ - *DMDP0002 - Utilização do módulo Desenvolvimento de Produto :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771906
+ - *DMDP0003 - Estrutura de produto :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771908
+ - *DMDP0004 - Geração de ordem protótipo :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771910
+ - *DMDP0005 - Como são geradas as reservas para itens do DP? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771912
+ - *DMDP0006 - Reporte de ordem protótipo :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771915
+ - *DMDP0007 - Como é efetuada a valorização de ordem protótipo :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771917
+ - *DMDP0008 - Planejamento de modificação futura no DP0301 (sem data de corte) :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771919
+MEN - Engenharia
+ - How To - MEN :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=287063080
+ - How To - MEN - Estrutura de Produto :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=287063119
+ - How To - MEN - Processo de Fabricação :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=287063080
+ - How To - MEN - Quantidade fixa para componentes da estrutura do item :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=274825843
+ - Cadastros - MEN :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243639341
+ - Cadastros Gerais - MEN :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243639341
+ - Manutenção dos Parâmetros da Engenharia - EN0101 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=699825541
+ - Manutenção Ponto de Controle - EN0509 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243639241
+MEN012AA - Manutencao de Programa
+ - Parametrização da Engenharia para uso do Fator de Concentração/PPM :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=235577677
+Engenharia do Produto - MEN
+ - Manutenção de Desenhos - EN0301 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243639535
+ - Manutenção de Desenhos do Item - EN0304 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243640034
+ - Manutenção Modelos - EN0106 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243640253
+ - Manutenção Estrutura do Item - EN0105 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243640411
+ - Manutenção Componentes Onde-se-usa - EN0109 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=341218834
+ - Importação de Estrutura/Alternativos - EN0113 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243641824
+ - Manutenção de Componentes Alternativos - EN0116 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243641926
+Engenharia de Processos - MEN
+ - Manutenção da Lista de Componentes - EN0103 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243643807
+ - Manutenção de Operações - EN0503 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243643953
+ - Manutenção Processo de Fabricação do Item - EN0507 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243644497
+ - Manutenção Processo de Fabricação do Item – Operações – EN0507 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243644497
+ - Manutenção Processo de Fabricação do Item – Rede Pert – EN0507 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243644497
+ - Manutenção Processo de Fabricação do Item – Roteiros – EN0507 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243644497
+ - Manutenção Processo de Fabricação do Item – Lista Comp – EN0507 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243644497
+ - Manutenção Processo de Fabricação do Item – Processos – EN0507 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243644497
+ - Manutenção Roteiros de Fabricação - EN0506 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243651234
+ - Manutenção Operação do Grupo de Máquina - EN0510 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243651437
+ - Importação Operações - EN0114 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243651572
+ - Importação Operações/Fichas Método - EN0115 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243652086
+ - Importação Narrativa Operações - EN0117 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243652200
+ - Consultas - MEN :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=454457557
+ - Consultas Cadastros Gerais :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=258277662
+ - Consulta Desenhos - EN0704 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243653412
+ - Consulta Revisão do Desenho - EN0705 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243653454
+ - Consulta Estrutura - EN0801 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=359467377
+ - Consulta Detalhes Estrutura - EN0807 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243653683
+ - Consulta Detalhes Estrutura - EN0806 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243655017
+ - Consulta Estrutura Nível a Nível - EN0805 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243655068
+ - Consulta Estrutura Sumarizada - EN0802 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243657389
+ - Consulta Item - EN0703 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243657783
+ - Consulta Itens Roteiro - EN0714 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243657831
+ - Consulta Itens do Desenho - EN0725 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243657846
+ - Consulta Família de Material - EN0702 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243657898
+ - Consulta Gráfica da Estrutura - EN0812 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=745113196
+ - Consulta Gráfica Onde-se-Usa - EN0813 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=758483830
+ - Consulta Grupo de Estoque - EN0701 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243658913
+ - Consulta Lista de Componentes - EN0727 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243659305
+ - Consulta Lista Destino Multiplanta / Item - EN0104 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243659355
+ - Consulta Modelo - EN0810 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243662461
+ - Consulta Onde se Usa - EN0803 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243662715
+ - Consulta Onde se Usa Alternativo - EN0809 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244417170
+ - Consulta Onde se Usa Item no Desenho - EN0726 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244417225
+ - Consulta Onde-se-Usa Nível a Nível - EN0808 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244417400
+ - Consulta Onde se Usa Sumariado - EN0804 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244417459
+ - Consulta Ponto Controle - EN0724 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244417702
+ - Consulta Processo Fabricação Item - EN0707 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244427933
+ - Consulta Roteiro Fabricação - EN0713 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244427997
+ - Consulta Operações de Engenharia - EN0712 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244428293
+ - Consulta Operações Alternativas - EN0719 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244428334
+ - Relatórios - MEN :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244428621
+ - Relatórios Cadastros Gerais - MEN :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244428621
+ - Listagem Itens sem Referência Estrutura - ENR012 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244428657
+ - Relatório Desenhos - ENR003 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244428801
+ - Relatório Desenho Itens - ENR004 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244429115
+ - Listagem de Estrutura Detalhada - EN0207 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244429262
+ - Relatório Estrutura Modelos - ENR002 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244431466
+ - Relatório Estrutura Nível a Nível - EN0205 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244431666
+ - Relatório Estrutura em Nível Único - EN0204 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244431818
+ - Relatório Estrutura Sumariada - EN0206 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244431829
+ - Relatório Lista Componentes - EN0610 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244712099
+ - Relatório Onde-se-Usa Detalhado - EN0211 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244712230
+ - Relatório Onde-se-Usa Nível a Nível - EN0209 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=351017854
+ - Relatório Onde-se-Usa Nível Único - EN0208 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244712818
+ - Relatório Onde-se-Usa Sumariado - EN0210 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=661605952
+ - Relatório Operações - EN0602 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244713091
+ - Relatório Operações Roteiro - ENR009 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244723156
+ - Relatório Operações Roteiro Detalhado - ENR010 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244715610
+ - Relatório Parâmetros do Item - EN0212 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244715690
+ - Relatório Processo Fabricação Item - EN0606 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244715754
+ - Listagem de Operações - ENR006 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244715848
+ - Listagem de Componentes do Desenho - ENR005 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244715896
+ - Listagem de Fichas de Método - ENR008 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244715965
+ - Listagem de Operações - ENR007 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244723111
+Engenheiro de Produto - MEN
+Pesquisa de Itens Engenharia - ItemsPortlet
+Monitorar Informações do Item - ItemPanelView
+Monitorar Estrutura de Componentes
+Monitorar Operações do Item
+Monitorar Roteiros do Item
+Monitorar Lista de Componentes do Item
+Monitorar Processos de Fabricação
+ - Cadastro de Operações :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=654707136
+ - Lista de Estruturas :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=454457557
+Conceitos - MEN
+ - Ajuste de Quantidades de Componentes de Formulação :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=235332491
+ - Consulta Onde-se-Usa o Item :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=235332536
+Forma da Estrutura de Produto
+ - Formas de Geração da Estrutura utilizada pelo EMS :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=235332855
+Fórmula Alternativa
+Implementação da Estrutura de Produto
+Item Controlado por Referência
+ - Lista de Componentes :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=453302029
+Documentação Complementar - MEN
+Acervo
+ - * DMEN0001 - Mensagem 28.627 - Família do item não possui depósito cadastrado. :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145516
+ - * DMEN0002 - Quais os possíveis estados de obsolescência dos itens? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771540
+ - * DMEN0003 - Como relacionar itens a estabelecimentos? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771542
+ - * DMEN0004 - Como atualizar a forma de obtenção do item? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145522
+ - * DMEN0005 - Como funciona o parâmetro Quantidade Fixa na engenharia? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771546
+ - * DMEN0006 - Mensagem 16.690 - Deseja atualizar os dados? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771548
+ - * DMEN0007 - Nível Mais Baixo do item (NMB) :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145528
+ - * DMEN0008 - Como fazer a seleção automática de roteiros na abertura da ordem de produção? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145538
+ - * DMEN0009 - Cadastros básicos para iniciar a utilização dos módulos de manufatura. :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505772923
+ - * DMEN0010 - Fluxo de cadastro de um novo item :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145542
+ - * DMEN0011 - Item Fantasma :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145544
+ - * DMEN0012 - Como relacionar uma imagem ao item no CD0204? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145548
+ - * DMEN0013 - Folha de especificação do item :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145551
+ - * DMEN0014 - É possível incluir vários itens para uma mesma sequência da estrutura? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145553
+ - * DMEN0015 - Qual a funcionalidade do campo Tipo Sobra no EN0105? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505772937
+ - * DMEN0016 - Mensagem 26.434 - Linha de Produção não cadastrada :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145557
+ - * DMEN0017 - Qual o conceito de similaridade de itens? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145559
+ - * DMEN0018 - Como alterar o código, a unidade de medida e o grupo de estoque de um item? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505772944
+ - * DMEN0019 - O que pode ocorrer se usarmos o CD0205 em modo multiusuário? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505772946
+ - * DMEN0020 - Programas de importação do módulo de Manufatura :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145565
+ - * DMEN0021 - Como eliminar itens que possuem vínculos? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145567
+ - * DMEN0022 - Estrutura - Legenda dos componentes :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145569
+ - * DMEN0023 - Substituição de componentes :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145571
+ - * DMEN0024 - Como funciona a exportação de dados do programa CD0218 - Manutenção Família Manufatura? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145577
+ - * DMEN0025 - Como funciona o relatório de estrutura sumarizada? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145579
+ - * DMEN0026 - Como funciona o relatório de estrutura nível a nível? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145583
+ - * DMEN0027 - Como verificar as pendências do item? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145589
+ - * DMEN0028 - Itens não são listados no Zoom (Oracle) :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145591
+ - * DMEN0029 - Quais são as tabelas afetadas pela alteração do código do item no CD0205? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145593
+ - * DMEN0030 - Desenhos do Item :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145595
+ - * DMEN0031 - Estrutura por Modelos :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145598
+ - * DMEN0032 - Como utilizar um item antes do fim do fluxo do Workflow? (ECM) :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145600
+ - * DMEN0033 - Quais grupos de usuários do workflow devem estar previamente cadastrados no ECM? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145602
+ - * DMEN0034 - Inclusão, Modificação e Cópia do item :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145604
+ - * DMEN0035 - Como definir a quantidade do item na estrutura ? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145606
+ - * DMEN0036 - Como definir o modo de visualização das imagens do CD0204 e EN0703? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145608
+ - * DMEN0037 - Conceito Alternativo e Reciclado :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506145610
+API - MEN
+ENAPI205_API_Consulta_Estrutura
+ENAPI209_API_Estrutura_onde-se-usa
+ - ENAPI301 - Consistir e gravar informações referentes a estruturas de itens :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=191467765
+ - ENAPI302 - Consistir e gravar componentes alternativos na estrutura de um item :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=191467767
+ - ENAPI608 - Efetua as rotinas do cadastro e manipulação de imagens e documentos, associados aos itens pertencentes a estrutura de componente :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=191467776
+BO - MEN
+ - BOIN111 - Manter e fornecer informações sobre o arquivo de estrutura do aplicativo de Manufatura do EMS 2.0 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=191467787
+ - BOIN253 - Manter e fornecer informações sobre as operações alternativas do aplicativo de Manufatura do EMS 2.0 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=191467791
+ - BOIN375 - Manter e fornecer informações sobre as referências do item do aplicativo de Manufatura do EMS 2.0 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=191467810
+ - *DMEN0019 - O que pode ocorrer se usarmos o CD0205 em modo multiusuário? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505772946
+ - *DMEN0018 - Como alterar o código, a unidade de medida e o grupo de estoque de um item? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505772944
+ - *DMEN0015 - Qual a funcionalidade do campo Tipo Sobra no EN0105? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505772937
+ - *DMEN0009 - Cadastros básicos para iniciar a utilização dos módulos de manufatura. :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505772923
+ - *DMEN0006 - Mensagem 16.690 - Deseja atualizar os dados? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771548
+ - *DMEN0005 - Como funciona o parâmetro Quantidade Fixa na engenharia? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771546
+ - *DMEN0003 - Como relacionar itens a estabelecimentos? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771542
+ - *DMEN0002 - Quais os possíveis estados de obsolescência dos itens? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=505771540

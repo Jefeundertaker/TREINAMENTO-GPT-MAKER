@@ -1,0 +1,335 @@
+MPC - Planejamento da Capacidade
+ - Cadastros - MPC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428119
+ - Cadastros Gerais - MPC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428119
+ - Parâmetros do MPC - PC0101 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269424222
+ - Atualização Família CRP - PC0102 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=489758459
+ - Atualização Item para CRP - PC0103 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=489759359
+ - Atualização Relacionamento Grupo Máquina - PC0104 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=489760726
+ - Atualização Relacionamento Linha Produção - PC0105 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=489761806
+Capacidade Turno - PC0106
+ - Manutenção Grupo de Máquina CRP - PC0109 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269424574
+Plano MPC – Parâmetros Cálculo - PC1001
+ - Cálculo do CRP - MPC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269423790
+ - Cálculo do CRP - PC0303 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269424739
+ - Consultas - MPC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269423820
+ - Consulta Carga Gerada Item - PC0516 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269424845
+ - Consulta Carga Grupo Máquina - PC0514 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269424971
+ - Consulta Origem Carga Grupo Máquina - PC0515 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269425208
+ - Relatórios - MPC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428119
+ - Relatórios Cadastros Gerais - MPC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428119
+ - Relatório Carga Grupo de Máquina - PC0414 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428270
+ - Relatório Famílias CRP - PCR002A :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428318
+ - Relatório Itens CRP - PCR003A :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428503
+ - Relatório Origem Carga Grupo Máquina - PC0415 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428593
+ - Relatório Ordens em Atraso - PC0417 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428682
+ - Relatório Parâmetros CRP - PC0407 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428797
+ - Relatório Parâmetros CRP - PCR001A :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428928
+ - Relatório Parametrização Grupo de Máquina - PC0406 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269429082
+Procedimentos - MPC
+ - Executando Cálculos de Verificação de Capacidade dos Recursos :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269424763
+MPL - Planejamento Produção
+ - How To - MPL :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=274834450
+ - How To - MPL - Plano de produção – Cadastro de planos (MRP) :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=676579804
+ - How To - MPL - Realizar a confirmação do planejamento de Materiais, na linha Datasul (MRP) :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=274834450
+ - Cadastros - MPL :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244726600
+ - Cadastros Gerais - MPL :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244919864
+ - Cadastro de Estrutura de Planos - PL0101 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244727064
+ - Cadastro de Estrutura de Estabelecimento - PL0102 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244727742
+ - Parametrização do Planejamento para Uso do Fator de Concentração/PPM :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244919884
+ - Cálculo do Planejamento - MPL :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244728033
+Roteiro de Parametrização do Sistema
+Alteração Ordens Planej/Reprog - PL0506
+ - Cálculo do Planejamento - PL0501 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244733227
+Geração Carga Máquina - PL0503
+ - Análise do Cálculo - MPL :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244734009
+Emissão do Demonstrativo do Cálculo - PL0502
+Emissão do Relatório de Carga Máquina - PL0504
+Emissão do Demonstrativo Final do Cálculo - PL0605
+Emissão do Relatório de Ordens Planejadas - PL0603
+Emissão do Relatório de Ordens Críticas - PL0604
+ - Confirmação do Planejamento - MPL :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244735721
+Geração das Ordens de Compras/Produção - PL0901
+ - Consultas - MPL :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244736973
+ - Consulta Item X Estabelecimentos - PL0302 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244737164
+ - Consulta Plano Produção/Previsão Vendas - PL0701 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244737617
+ - Consulta Planejador - PL0706 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244737624
+ - Consulta Comprador - PL0707 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244737638
+ - Consulta Família - PL0702 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244737645
+ - Consulta Item - PL0703 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244738802
+ - Consulta Ordem Reprogramada - PL0705 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244741296
+ - Consulta Demonstrativo Cálculo - PL0704 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244741797
+ - Consulta Carga Máquina Item - PL0708 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244743292
+ - Consulta Carga Máquina Grupo Máquina - PL0709 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244743548
+ - Consulta Carga Máquina Centro Custos - PL0710 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244743651
+ - Consulta Demonstrativo Cálculo Data - PL0713 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244743777
+ - Simulação Excel - PL0700 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244908486
+ - Consulta Mensagem de Exceção - PL0712 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244908859
+ - Relatórios - MPL :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244909347
+Itens X Estabelecimentos - PL0606
+ - Relatório Quantidades Alteradas Pedidos - PL0505 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244910363
+ - Relatório Planos Produção/Previsão Vendas - PL0401 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244910485
+ - Relatório Ressuprimento Nível a Nível - PL0404 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244910613
+ - Relatório Parâmetros/Estatística Cálculo - PLR002 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244911578
+ - Relatório Ordens Reprogramadas - PL0602 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244911107
+ - Relatório Mensagem de Exceção - PL0515 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244911219
+ - Relatório Demonstrativo Cálculo Data - PL0507 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244920065
+Verifica Parametrização do Item - PL0405
+Planejador de Produção - MPL
+Monitorar Pedidos de Venda Alterados - ChangedSalesOrderView
+Definir Itens do Plano - html.cd0301c
+Ordens de Compra Alteradas - html.changedPurchaseOrders
+Plano Produção/Previsão Vendas HTML- html.cd0301
+Conceitos - MPL
+ - Cadastro da Previsão de Vendas - MRP :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244723050
+Ponto de Reposição
+Processo de Cálculo do Planejamento Multi-Estabelecimento
+Time Fences
+Documentação Complementar - MPL
+BO - MPL
+BOIN308 - Manter e fornecer informações sobre os itens calculados durante o planejamento do aplicativo de Manufatura do EMS
+BOIN311FX - Funções relacionadas com necessidades do plano de produção
+BOIN311 - Manter e fornecer informações sobre as quantidades necessárias dos itens de cada plano do aplicativo de Manufatura do EMS
+BOIN318FX - Funções relacionadas com plano de produção
+BOIN318 - Manter e fornecer informações sobre o plano de produção/Previsão de vendas do aplicativo de Manufatura do EMS
+BOMF308FX - Alteração de ordens
+BOMR001FX - Consulta de ordens do planejamento
+BOMR005FX - Consulta do demonstrativo MRP
+MPM - Plano Mestre de Produção
+ - Ajuste da Demanda :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=465177012
+ - Manutenção Previsão de Vendas :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=255263722
+Reservas ATP - PM0311
+Ambientação
+ - Cálculo do Plano Mestre de Produção - MPM :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=255754442
+ - Ajuste do Plano Mestre - PM0507 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=255755094
+ - Cálculo do Plano Mestre - PM0501 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=255754928
+Ciclo do Plano Mestre de Produção
+Implantação do Plano Mestre
+Conceitos - MPM
+Disponível para Pedidos - MPM
+Disponível para Promessa - MPM
+Formas de Ajuste
+Tipos de Recursos - MPM
+ - Consultas - MPM :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256315788
+ - Consulta Cálculo Plano Mestre - PM0701 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256315947
+ - Consulta Item Plano - PM0707 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256316788
+ - Consulta Plano Mestre - PM0705 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256315813
+ - Consulta Produto Plano - PM0708 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256316954
+ - Consultas Gerais - MPM :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256315788
+Convenções Utilizadas neste Manual
+Definição Geral de Conceito - MPM
+Definição Geral de Procedimento
+Dúvidas Mais Frequentes - MPM
+ - Como ocorre a integração do Multiplanta com o Plano Mestre? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317866
+ - Os dados informados no Cadastro de Produtos (CD0922), são utilizados apenas no módulo MPM? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=257130793
+ - Quais as formas de ajuste da Previsão de Vendas? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=257130976
+ - Quais as fórmulas para o cálculo da Previsão Automática e Previsão de Vendas? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=259555805
+ - Quais os procedimentos para considerar determinado item na Carga de Máquina? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=259560197
+ - Qual a finalidade da Alocação dos Recursos? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=258834768
+ - Qual a finalidade da Atualização dos Planos de Produção? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=257130836
+ - Qual a finalidade da Previsão de Vendas manual? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=257130847
+ - Qual a finalidade e as regras de negócio da carga do Plano Mestre? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=257132820
+ - Qual o conceito de Estrutura de Produto? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=257130825
+Preparação das Informações - MPM
+ - Cadastros Gerais - MPM :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=254608335
+ - Manutenção dos Parâmetros do MPS - PM0310 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=254609089
+Preparação dos Recursos e Relacionamento com Item/Produto - MPM
+ - Manutenção dos Recursos do Produto - PM0305 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=255263638
+ - Manutenção Recurso Item - PM0306 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=255263471
+ - Manutenção Recursos por Tipo de Recurso - PM0303 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=254609300
+Procedimentos - MPM
+ - Sequência de Execução do Cálculo do Plano Mestre :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=255754938
+ - Relatórios - MPM :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317062
+ - Demonstrativo Produção Estabelec - PM0605 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317695
+ - Relatório Capacidade Recursos - PMR003A :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317392
+ - Relatório Demonstrativo Produção - PM0604 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317636
+ - Relatório Demonstrativo Vendas - PM0603 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317455
+ - Relatório Detalhes Carga - PMR008A :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317609
+ - Relatório Planos Produção - PMR006A :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317322
+ - Relatório Planos Produção - PMR007A :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317481
+ - Relatório Previsão Produção - PM007A :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317587
+ - Relatório Recursos Item - PMR005A :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317298
+ - Relatório Recursos - PMR002A :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317346
+ - Relatório Recursos Produto - PMR004A :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317248
+ - Relatório Reprogramações - PMR0011 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317719
+ - Relatórios Gerais - MPM :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=256317164
+MVC - Administração do Valor da Configuração
+ - Cadastros - MVC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=485450790
+ - Parâmetros Variáveis Fixas - VC0101 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269449017
+ - Cálculo das Variáveis de Custos - MVC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269448705
+ - Cálculo das Variáveis Tipo Custos - VC0201 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269449100
+Conceitos - MVC
+Formação de Preços do Item Configurado
+ - Consultas - MVC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=331869135
+ - Consulta Custos da Configuração - VC0301 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269449185
+ - Consulta Histórico Preço de Venda x Custo Real de Produção - VC0302 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269449844
+ - Consulta Preço de Venda da Configuração - VC0303 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269449860
+Documentação Complementar - MVC
+API - MVC
+VCAPI001 - Cálculo dos Custos para o Configurador de Produtos
+VCAPI006 - Análise de Valores do Configurado
+ - Relatórios - MVC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269448910
+ - Demonstrativo de Custos Valor do Configurado - VC0401 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269450021
+Histórico Variação Preço de Venda x Custo Real de Produção - VC0402
+ - Relatório Comparativo Real x Padrão - VC0403 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269450459
+SFC - Chão de Fábrica
+ - How To - SFC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=274649113
+ - How To - SFC - Consulta Gerencial Chão de Fábrica - Indicadores SFC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=274649297
+ - How To - SFC - Consulta Gerencial Chão de Fábrica - Paradas de Fábrica :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=274648885
+ - How To - SFC - Consulta Gerencial Chão de Fábrica - Reportes de Produção :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=274648683
+ - How To - SFC - Consulta Gerencial SFC - Refugos e Retrabalhos :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=274649113
+Conceitos - SFC
+Alocação de Atividades SFC
+Composição de Mensagem
+Unidade de Negócio - SFC
+ - Cadastros - SFC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=240309529
+ - Cadastros Gerais - SFC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=240309529
+ - Parâmetros de Chão de Fábrica - SF0101 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=240310228
+ - Manutenção Área de Produção - SF0102 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=240981193
+Segurança da Área de Produção - SF0105
+ - Manutenção Grupo Máquina SFC - SF0103 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=241698030
+ - Manutenção Centro de Trabalho - SF0104 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243649109
+ - Manutenção Operadores de Fábrica - SF0108 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=243012365
+ - Manutenção Equipes de Produção - SF0109 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244716033
+ - Manutenção Motivos de Parada - SF0106 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244716181
+ - Manutenção de Itens de Chão de Fábrica - SF0111 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244716219
+ - Manutenção Interface Reporte - SF0110 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=244717937
+ - Manutenção Motivo Refugo - SF0107 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=267782421
+ - Parametrização do Chão de Fábrica para uso do Fator de Concentração/PPM :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=268816447
+Função Flexibilização de Alocação - SF0118
+ - Manutenção de Código Redutor de Setup - SF0119 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=267784321
+Matriz de Redução de Setup - SF0120
+Centros de Trabalho Válidos - SF0121
+ - Manutenção Classe de Motivos - SF0122 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=268817380
+ - Manutenção de Recurso Secundário - SF0125 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=268817834
+Recurso Secundário por Operação - SF0126
+ - Cadastro de Modelo do Tanque - SF7010 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=268818421
+ - Cadastro de Tanques - SF7011 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269070514
+ - Cadastro de Agrupamento - SF7012 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=268821443
+ - Cadastro Item x Modelo - SF7013 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=268821459
+ - Cadastro de Índice - SF7014 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=268821465
+ - Manutenção de Tipos de Especialidades - SF0117 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269070616
+Nível da Área de Produção - SF0115
+Preferência de Produção - SF0123
+Reporte de Operação de Centro de Trabalho - SF0303
+ - Importação de Reportes - SFC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269074046
+ - Importação Reporte de Operação - SF0330 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269074199
+ - Importação Reporte de Parada - SF0331 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269074307
+ - Importação Reporte de Itens de Controle - SF0332 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269074618
+Log de Erros de Importação de Reportes - SF0333
+Ordem de Produção - SFC
+ - Detalhe Split de Operação - SF0308B :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=266968970
+Documentação Complementar - SFC
+*API - SFC
+*SFAPI009 - API de Reporte de Operações
+*SFAPI010 - API de Reporte de Parada do Centro de Trabalho
+*SFAPI100 - API Apontamento Tanque
+*BO - SFC
+*BOIN529 - DBO de Paradas Programadas
+*BOMF544 - DBO de Reporte de Itens de Controle (ICs) do Centro de Trabalho
+*BOMF00691 - DBO de Componente Alternativo
+*BOMF00692 - DBO de Componente Alternativo
+*BOMF00693 - DBO de Componente Alternativo
+*BOMF00694 - DBO de Componente Alternativo
+*BOMF00695 - DBO de Componente Alternativo
+*BOMF00696 - DBO de Componente Alternativo
+*BOMF00697 - DBO de Componente Alternativo
+*BOMF00701 - DBO de Componente Alternativo
+Acervo - SFC
+*DSFC0009 - Reporte Operação
+*DSFC0010 - Reporte Ponto de Controle
+*DSFC0011 - Como funciona o ROP (Refugo por Operação)?
+*DSFC0012 - Quais as principais características do módulo de chão de fábrica?
+*DSFC0013 - Recálculo dos tempos de reporte
+*DSFC0014 - Por que as ordens de produção não estão sendo sumarizadas automaticamente?
+*DSFC0015 - Diferença entre o tempo reportado no Chão de Fábrica e no movimento de GGF
+ - *DSFC0016 - Mensagem "27.299 - Reporte já cadastrado com este intervalo de tempo" :: (NÃO ENCONTRADO)
+*DSFC0017 - Como vincular uma ferramenta ao split automaticamente?
+*DSFC0018 - Quando são consideradas horas extras no reporte de paradas?
+*DSFC0019 - Como definir diferentes interfaces de reporte por grupo de máquina?
+ - *DSFC0020 - Mensagem "17.006 - Grupo de máquina selecionado não é alternativo ao anterior" :: (NÃO ENCONTRADO)
+ - *DSFC0021 - Mensagem "17.989 - Confirma o encerramento da operação?" :: (NÃO ENCONTRADO)
+ - *DSFC0022 - Mensagem "15.783 - Código de devolução não cadastrado." :: (NÃO ENCONTRADO)
+ - *DSFC0023 - Mensagem "847 - Quantidade deve ser um valor inteiro" :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506137745
+ - *DSFC0024 - Por que não é permitido eliminar um centro do trabalho no SF0102 - Manutenção Área Produção? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506137748
+*DSFC0025 - Parametrizações de Chão de Fábrica e CRP (Planejamento da Capacidade)
+*DSFC0026 - Por que operações somem do Gantt após a reprogramação?
+*DSFC0027 - Diferença entre a quantidade apresentada no chão de fábrica e na produção
+ - *DSFC0028 - Como é calculada a eficiência no relatório Performance Centro de Trabalho - SF0411? :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506137756
+ - *DSFC0029 - Ajuste de datas - Relatório Apontamentos Centro Trabalho - SF0412 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506137761
+*DSFC0030 - Regras para a criação e reporte de splits no chão de fábrica
+*DSFC0031 - Diferença entre o tempo exibido no SF0401 e SF0408
+*DSFC0033 - Parada em Reporte
+ - *DSFC0034 - Nr. reporte quando quantidade zero no SFC - Integração TOTVS MES :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506137772
+*DSFC0035 - Geração de GGF/MOD para Tempo de Preparação quando o reporte é pelo Padrão
+*DSFC0036 - Reporte em Parada
+ - *DSFC0037 - Divisão de Split e Reporte sem Split no SFC - Integração TOTVS MES :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=506137784
+Paradas Programadas - SFC
+Parada Programada Centro de Trabalho - SF0302
+Monitor de Integração da Manutenção - SF0312
+Gerenciamento das Atividades - SFC
+ - Alocação de Atividades - SFC - SF0314 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=270090297
+Disponível para Promessa - SF0314U
+Planejamento dos Dados de Simulação - SF0314V
+ - Manutenção Hora Extra - SF0124 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269077308
+Centro Operacional do Chão de Fábrica - SF0307
+Rastreabilidade de Fábrica - SF0715
+Liberação/Bloqueio OP por Faixa - SF0313
+ - Consultas - SFC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269422856
+ - Consulta Carga Centro Trabalho - SF0504 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269080615
+ - Consulta Tempo Médio Fila - SF0505 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269081337
+ - Simulação Data Entrega Item - SF0506 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269088619
+Abertura Arquivo Parâmetros - SF0599
+ - Comparativo Setup Real X Padrão - SF0711 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269419858
+ - Consulta Tempo Setup por Tempo Operação - SF0712 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269420561
+ - Consulta Evolução Indicadores Setup - SF0713 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269421514
+Geração de Indicadores Setup - SF0804
+ - Consulta Paradas do Centro de Trabalho - SF0701 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269421843
+ - Consulta Paradas Área de Produção - SF0702 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269422473
+ - Consulta Grupo Máquina SFC / CRP - SF0603 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269422856
+ - Consulta Resumo Produção Centro Trabalho - SF0705 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269422979
+ - Consulta Resumo Produção por Item - SF0706 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269423731
+ - Consulta Motivos Refugo - SF0704 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269423836
+ - Consulta Refugo x Centro de Trabalho - SF0703 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269424140
+ - Consulta Refugo x Operação - SF0707 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269424287
+ - Consulta Centro de Trabalho X Operador - SF0708 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269424792
+ - Consulta Operador x Centro de Trabalho - SF0709 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269424990
+ - Consulta Área de Produção - SF0606 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269088845
+ - Consulta Monitoramento Atividade - SF0501 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269425110
+ - Consulta Dispatch List - SF0503 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269425326
+ - Consulta de Centro de Trabalho - SF0604 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269426859
+Gerencial do Chão de Fábrica - SF0629
+ - Consulta Monitoramento Atividade - SF0399 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269069612
+ - Consulta Reporte Item Controle - SF0507 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=272425929
+ - Consulta Centro de Trabalho - html.sfc.WorkCenters :: https://tdn.totvs.com.br/pages/viewpage.action?pageId=244733502
+ - Relatórios - SFC :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269436069
+ - Relatório Carga Centro Trabalho - SF0413 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428598
+ - Relatório Dispatch List - SF0414 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428840
+ - Relatório Setup Real X Padrão - SF0415 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269428980
+ - Relatório Tempo de Setup por Tempo de Operação - SF0416 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269429251
+ - Relatório Tempo Médio Fila - SF0418 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269429281
+ - Relatório Apontamentos Centro Trabalho - SF0412 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269435928
+ - Relatório Centro Trabalho / Ferramentas - SF0403 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269435987
+ - Relatório Grupo Máquina SFC - SF0406 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269436069
+Monitoramento de Indicadores de Fábrica - SF0420
+ - Relatório Paradas Centro de Trabalho - SF0401 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269438816
+ - Relatório Paradas Programadas - SF0404 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269439035
+ - Relatório Performance Operador - SF0409 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269439258
+ - Relatório Refugo x Operação x Centro de Trabalho - SF0407 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269439422
+ - Relatório Resumo Produção por Centro de Trabalho - SF0402 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269439473
+ - Relatório Resumo Produção por Item - SF0405 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269439529
+ - Relatório Verificação Reportes Paradas - SF0408 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269439560
+Dispatch List / Picking List - SF0419
+ - Relatório Boletim de Produção - SF7210 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269440562
+ - Relatório Acompanhamento Medição - SF7220 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269440648
+ - Relatório Performance dos Centros de Trabalho - SF0411 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=272413492
+Visão de Utilização de Unidade de Negócio - SF0417
+Reportes Chão de Fábrica - SFC
+Apontamento Agrupamento - SF7110
+Apontamento Dispatch List - SF0310
+Apontamento do Chão de Fábrica - SF0308
+Apontamento Unitário - SF0309
+Estorno Reporte SFC - SF0315
+ - Manutenção de Reporte de Parada Geral - SF0304 :: https://tdn.totvs.com.br/pages/releaseview.action?pageId=269078265
+Parada Centro de Trabalho - SF0301
+Reanálise de Refugos e Retrabalhos - SF0309A
+Recalculo dos Tempos de Reporte - SF0305
