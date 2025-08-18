@@ -1,61 +1,66 @@
 # -*- coding: utf-8 -*-
 """
-Envio de TODOS os PDFs do repositório local para o GPT Maker, com robustez.
-- Faz HEAD/GET de validação
-- Detecta ponteiro Git LFS (e pula)
+Envia TODOS os PDFs do repositório local para o GPT Maker, exceto os de pastas excluídas.
+- Filtros de exclusão por pasta raiz (ex.: --exclude-root CUSTOS)
+- HEAD/GET de validação
+- Detecção de ponteiro Git LFS (pula)
 - Retries com backoff
-- Log CSV para auditoria e reprocessamento
+- CSV de relatório para reprocessar erros
 
-Uso básico:
-    python enviar_todos_gptmaker.py
+Exemplos:
+    # enviar tudo EXCETO a pasta CUSTOS
+    python enviar_todos_exceto_gptmaker.py --exclude-root "CUSTOS"
 
-Opções:
-    --root "subpasta/..."     # envia só uma subárvore do repo
-    --resume errors           # reenvia apenas os que falharam no último CSV
-    --dry-run                 # não envia; só valida e gera CSV
+    # enviar só uma subpasta e ainda excluir outra
+    python enviar_todos_exceto_gptmaker.py --root "PDFs_TDN" --exclude-root "CUSTOS"
+
+    # dry-run (valida sem enviar)
+    python enviar_todos_exceto_gptmaker.py --exclude-root "CUSTOS" --dry-run
+
+    # reprocessa apenas falhas do último CSV (mantém exclusões)
+    python enviar_todos_exceto_gptmaker.py --exclude-root "CUSTOS" --resume errors
 """
 
 import csv
 import sys
 import time
-import json
 from datetime import datetime
 from pathlib import Path
-from typing import Iterable, List, Tuple
+from typing import List, Tuple
 from urllib.parse import quote
 
 import requests
+import argparse
 
 # ====== SEUS DADOS GPT MAKER ======
 GPT_MAKER_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJncHRtYWtlciIsImlkIjoiM0U0ODZBREVGQzIzNjA4NUZEMDg2RTM0QjJBM0E0QzciLCJ0ZW5hbnQiOiIzRTQ4NkFERUZDMjM2MDg1RkQwODZFMzRCMkEzQTRDNyIsInV1aWQiOiI3ODc3MmVlOS0xYjM1LTQwODktOTZjZC1kN2VjODYxZDA2NjcifQ.JZCvmkHo4q1j8MLZsdILHZPYTWIU1k7k9TsRjqzoV4g"
 GPT_MAKER_AGENT_ID = "3E486BB7311B50C738D06AFD7E53B630"
 API_URL = f"https://api.gptmaker.ai/v2/agent/{GPT_MAKER_AGENT_ID}/trainings"
 
-# ====== DADOS DO REPO LOCAL ======
+# ====== REPO LOCAL ======
 OWNER   = "Jefeundertaker"
 REPO    = "TREINAMENTO-GPT-MAKER"
 BRANCH  = "main"
-LOCAL_REPO = Path(r"C:\Projetos\TREINAMENTO-GPT-MAKER")  # ajuste se seu clone estiver em outro lugar
+LOCAL_REPO = Path(r"C:\Projetos\TREINAMENTO-GPT-MAKER")   # ajuste se seu clone estiver em outro local
 
-# ====== AJUSTES FINOS ======
-PDF_MIMETYPE = "application/pdf"
-SLEEP_BETWEEN = 0.35   # respiro entre envios
-RETRIES = 3            # tentativas por PDF
-TIMEOUT = 60           # segundos por chamada POST
-HEAD_TIMEOUT = 20      # segundos para HEAD
-GET_SNIFF_BYTES = 512  # bytes para inspecionar possível ponteiro LFS
-REPORT_PATH = LOCAL_REPO / "gptmaker_envio_report.csv"
+# ====== AJUSTES ======
+PDF_MIMETYPE   = "application/pdf"
+SLEEP_BETWEEN  = 0.35
+RETRIES        = 3
+TIMEOUT        = 60
+HEAD_TIMEOUT   = 20
+GET_SNIFF      = 512
+REPORT_PATH    = LOCAL_REPO / "gptmaker_envio_report.csv"
 
-# ====== CLI mínima (sem libs externas) ======
-import argparse
-ap = argparse.ArgumentParser(description="Enviar todos os PDFs para o GPT Maker com robustez.")
-ap.add_argument("--root", default="", help="Subpasta relativa dentro do repo para filtrar (ex.: 'CUSTOS').")
-ap.add_argument("--resume", choices=["errors"], help="Reprocessar a partir do CSV anterior (apenas erros).")
-ap.add_argument("--dry-run", action="store_true", help="Não envia; apenas valida e gera CSV.")
+ap = argparse.ArgumentParser(description="Enviar PDFs ao GPT Maker (com exclusões por pasta).")
+ap.add_argument("--root", default="", help="Subpasta relativa para filtrar o escopo (ex.: 'CUSTOS').")
+ap.add_argument("--exclude-root", action="append", default=[], help="Pasta(s) raiz a excluir. Pode repetir a opção.")
+ap.add_argument("--resume", choices=["errors"], help="Reprocessar somente erros do CSV anterior.")
+ap.add_argument("--dry-run", action="store_true", help="Não envia; apenas valida e registra no CSV.")
 args = ap.parse_args()
 
 
-def posix_path(p: Path) -> str:
+def posix(p: Path) -> str:
     return p.as_posix()
 
 
@@ -73,26 +78,16 @@ def head_ok(url: str) -> Tuple[bool, int]:
 
 
 def sniff_is_lfs_pointer(url: str) -> Tuple[bool, int]:
-    """
-    Baixa só um pedaço (GET stream) e verifica se parece ponteiro LFS.
-    Ponteiro típico começa com: 'version https://git-lfs.github.com/spec/v1'
-    """
     try:
         r = requests.get(url, stream=True, timeout=HEAD_TIMEOUT, allow_redirects=True)
         r.raise_for_status()
-        chunk = next(r.iter_content(GET_SNIFF_BYTES), b"")
-        txt = b""
-        # tente decodificar só um pouco
-        try:
-            txt = chunk.decode("utf-8", errors="ignore").encode("utf-8")
-        except Exception:
-            pass
-        is_pointer = b"git-lfs.github.com/spec/v1" in txt or chunk.startswith(b"version https://git-lfs")
-        # tamanho útil (se Content-Length vier)
+        chunk = next(r.iter_content(GET_SNIFF), b"")
+        text = chunk.decode("utf-8", errors="ignore")
+        is_ptr = ("git-lfs.github.com/spec/v1" in text) or text.startswith("version https://git-lfs")
         size = int(r.headers.get("Content-Length", "0")) if r.headers.get("Content-Length") else 0
-        return (is_pointer, size)
+        return is_ptr, size
     except Exception:
-        return (False, 0)
+        return False, 0
 
 
 def post_with_retries(payload: dict, headers: dict) -> requests.Response:
@@ -107,7 +102,7 @@ def post_with_retries(payload: dict, headers: dict) -> requests.Response:
     raise last if last else RuntimeError("Falha desconhecida no POST")
 
 
-def send_one(url: str, name: str) -> Tuple[bool, int, str]:
+def send_one(url: str, name: str):
     headers = {
         "Authorization": f"Bearer {GPT_MAKER_TOKEN}",
         "Content-Type": "application/json",
@@ -120,7 +115,6 @@ def send_one(url: str, name: str) -> Tuple[bool, int, str]:
     }
     resp = post_with_retries(payload, headers)
     ok = 200 <= resp.status_code < 300
-    msg = ""
     try:
         data = resp.json()
         msg = data.get("message") or data.get("status") or ""
@@ -129,14 +123,20 @@ def send_one(url: str, name: str) -> Tuple[bool, int, str]:
     return ok, resp.status_code, msg
 
 
-def list_pdfs(root_filter: str = "") -> List[Path]:
-    base = LOCAL_REPO
-    if root_filter:
-        base = (LOCAL_REPO / root_filter).resolve()
-        if not base.exists():
-            print(f"⚠️ Subpasta '{root_filter}' não existe. Usando raiz do repo.")
-            base = LOCAL_REPO
-    return sorted(p for p in base.rglob("*.pdf") if p.is_file())
+def list_pdfs(base: Path, excluded_roots: List[str]) -> List[Path]:
+    """
+    Retorna todos os PDFs abaixo de 'base', excetuando caminhos que
+    começam com qualquer pasta em 'excluded_roots' (case-insensitive).
+    """
+    excludes_norm = {er.strip().lower() for er in excluded_roots if er.strip()}
+    results = []
+    for p in base.rglob("*.pdf"):
+        rel = p.relative_to(LOCAL_REPO)
+        first_part = rel.parts[0].lower() if rel.parts else ""
+        if first_part in excludes_norm:
+            continue
+        results.append(p)
+    return sorted(results)
 
 
 def load_previous_errors(report_file: Path) -> set:
@@ -146,34 +146,42 @@ def load_previous_errors(report_file: Path) -> set:
     with report_file.open(encoding="utf-8") as f:
         rdr = csv.DictReader(f)
         for row in rdr:
-            if (row.get("status_ok") == "False") or (row.get("status_code") and row["status_code"].startswith("4")) or (row.get("status_code") and row["status_code"].startswith("5")):
+            ok = row.get("status_ok", "")
+            code = row.get("status_code", "")
+            if ok == "False" or (code.startswith("4") or code.startswith("5")) or code in ("HEAD:0", "HEAD:404", "LFS"):
                 errs.add(row.get("local_path", ""))
     return errs
 
 
 def main():
-    # 1) montar lista
+    # Base de busca
+    base = LOCAL_REPO if not args.root else (LOCAL_REPO / args.root)
+    if not base.exists():
+        print(f"⚠️ Subpasta base não existe: {base}. Usando {LOCAL_REPO}")
+        base = LOCAL_REPO
+
+    # Montar lista
     if args.resume == "errors":
         prev_errs = load_previous_errors(REPORT_PATH)
         if not prev_errs:
-            print("Nenhum erro anterior encontrado no CSV. Executando varredura completa.")
-            pdfs = list_pdfs(args.root)
+            pdfs = list_pdfs(base, args.exclude_root)
         else:
-            all_pdfs = list_pdfs(args.root)
-            pdfs = [p for p in all_pdfs if posix_path(p).endswith(tuple(prev_errs)) or posix_path(p) in prev_errs]
-            # fallback se matching fraco
+            all_pdfs = list_pdfs(base, args.exclude_root)
+            prev_errs_norm = {e.replace("\\", "/") for e in prev_errs}
+            pdfs = [p for p in all_pdfs if posix(p.relative_to(LOCAL_REPO)) in prev_errs_norm]
             if not pdfs:
-                pdfs = [LOCAL_REPO / p for p in prev_errs if (LOCAL_REPO / p).exists()]
+                pdfs = [LOCAL_REPO / e for e in prev_errs_norm if (LOCAL_REPO / e).exists()]
     else:
-        pdfs = list_pdfs(args.root)
+        pdfs = list_pdfs(base, args.exclude_root)
 
     if not pdfs:
-        print(f"⚠️ Nenhum PDF encontrado em {LOCAL_REPO}{('/' + args.root) if args.root else ''}")
+        print("⚠️ Nenhum PDF encontrado com os filtros informados.")
         return 0
 
-    print(f"Encontrados {len(pdfs)} PDFs. Iniciando envio{' (dry-run)' if args.dry_run else ''}…")
+    print(f"Encontrados {len(pdfs)} PDFs. Exclusões: {args.exclude_root if args.exclude_root else 'nenhuma'}")
+    print(f"{'(dry-run, sem envio)' if args.dry_run else ''}")
 
-    # 2) preparar CSV
+    # CSV
     new_file = not REPORT_PATH.exists()
     with REPORT_PATH.open("a", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
@@ -182,7 +190,7 @@ def main():
 
         okc = errc = 0
         for p in pdfs:
-            rel_local = posix_path(p.relative_to(LOCAL_REPO))
+            rel_local = posix(p.relative_to(LOCAL_REPO))
             raw = build_raw_url(p)
 
             # HEAD
@@ -194,25 +202,25 @@ def main():
                 time.sleep(SLEEP_BETWEEN)
                 continue
 
-            # sniff LFS pointer
+            # LFS?
             is_lfs, size = sniff_is_lfs_pointer(raw)
             if is_lfs:
                 w.writerow([datetime.utcnow().isoformat(), rel_local, raw, size, True, False, "LFS", "LFS pointer detected"])
-                print(f"⏭️  PULADO (LFS pointer): {rel_local}")
+                print(f"⏭️  PULADO (LFS) {rel_local}")
                 errc += 1
                 time.sleep(SLEEP_BETWEEN)
                 continue
 
             if args.dry_run:
                 w.writerow([datetime.utcnow().isoformat(), rel_local, raw, size, False, True, "DRY", "validated"])
-                print(f"📝 DRY: {rel_local}")
+                print(f"📝 DRY  {rel_local}")
                 okc += 1
                 time.sleep(SLEEP_BETWEEN)
                 continue
 
-            # Enviar
             ok, st, msg = send_one(raw, p.name)
             w.writerow([datetime.utcnow().isoformat(), rel_local, raw, size, False, ok, st, msg])
+
             if ok:
                 print(f"✅ {st}  {rel_local}  {('- ' + msg) if msg else ''}")
                 okc += 1
